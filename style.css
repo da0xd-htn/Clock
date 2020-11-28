@@ -1,0 +1,48 @@
+#outMain{
+width: 450px;
+height: 350px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background-color: rgb(228, 57, 57);
+}
+
+#inMain{
+    width: 400px;
+height: 250px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+background-color: coral;
+}
+
+#time-ar{
+    width: 100%;
+    height: 200px;
+background-color: black;
+color: cornsilk;
+line-height: 200px;
+font-size: 50px;
+font-family: 'Goldman', cursive;
+
+}
+#date-ar{
+    height: 50px;
+
+background-color: white;
+font-size: 25px;
+font-family: 'Goldman', cursive;
+}
+#time,#date{
+    margin: 0px;
+    padding: 6px;
+}
+
+input[type="color" i] {
+ border-radius: 20px;
+
+
+}
